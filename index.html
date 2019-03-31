@@ -1,0 +1,47 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="jumbotron text-center" id="jumbotron">
+      <h1><italic>Random Quote Machine</italic> </h1>
+      <p class="lead">Famous quotes from literary geniuses across the ages
+      </p>
+
+
+      <hr class="my-y-2">
+
+
+      <button id="quoteButton" class="btn">Show Random Quote</button>
+      <button id="createQuoteButton" class="btn">Create quote</button>
+
+
+      <div id="hiddenQuoteForm"></div>
+    </div>
+  </div>
+
+
+  <div class="container text-center" id="quoteHolder">
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-block">
+          <p class="card-text" id="quoteText"></p>
+          <p class="card-author" id="quoteAuthor">,Author</p>
+
+          <button href="#" data-toggle="tooltip" title="Post quote on twitter" alt="Tweet quote" id="tweet" class="btn"><i class="fa fa-twitter"></i></button>
+
+        </div>
+
+
+      </div>
+    </div>
+    <hr>
+    <p class="text-center" style="color:black">Created by sam francis</p>
+  </div>
+
+</body>
